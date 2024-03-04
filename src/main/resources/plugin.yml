@@ -1,0 +1,9 @@
+name: ItemSpawn
+version: '${project.version}'
+main: com.ashkiano.itemspawn.ItemSpawn
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  spawnitem:
+    description: Spawns the item you are holding at your location with an optional fixed or random delay.
+    usage: /<command> [minDelay] [maxDelay]
